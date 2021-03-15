@@ -1,5 +1,5 @@
 FROM surnet/alpine-wkhtmltopdf:3.12-0.12.6-full as wkhtmltopdf
-FROM mahdiziraki/laravel-php-fpm:1.9
+FROM mahdiziraki/laravel-php-fpm:2.0
 
 # Install dependencies for wkhtmltopdf
 RUN apk add --no-cache \
